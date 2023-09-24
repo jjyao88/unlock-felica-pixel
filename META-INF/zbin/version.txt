@@ -1,0 +1,3 @@
+Project: Dynamic Installer
+Version: Stable - 4.7-b3
+Author:  @BlassGO
