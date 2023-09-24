@@ -3,7 +3,10 @@
 ## Description
 This module will *systemlessly* patch **PixelNfc** system app, which will check whether the pixel is Japanese SKU. Also mark FeliCa enabled in `felica_common.cfg`
 
-I have only tested on Pixel 4 XL with Android 13, Should work on any Pixel devices that Android 11+ at least.
+I have only tested on Pixel 4 XL with Android 13, Should work on any Google Pixel device that runs Android 11+ at least.
+
+## Download
+[Download latest version](https://github.com/jjyao88/unlock-felica-pixel/releases)
 
 ## Recommend Apps to Install
 - [Osaifu-Keitai](https://play.google.com/store/apps/details?id=com.felicanetworks.mfm.main) [com.felicanetworks.mfm.main]
