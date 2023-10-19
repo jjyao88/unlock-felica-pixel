@@ -65,9 +65,10 @@ if grep -q "00000018,1" "$TMPDIR/felica_common.cfg"; then
 else
     ui_print " -- Patching Felica config"
     echo "00000018,1" >>"$TMPDIR/felica_common.cfg"
-    move "$TMPDIR/felica_common.cfg" "$MODPATH$FELICA_CFG"
-    set_context "$FELICA_CFG" "$MODPATH$FELICA_CFG"
 fi
+
+move "$TMPDIR/felica_common.cfg" "$MODPATH$FELICA_CFG"
+set_context "$FELICA_CFG" "$MODPATH$FELICA_CFG"
 
 ui_print " "
 ui_print " -- Done "
