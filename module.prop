@@ -1,0 +1,8 @@
+id=pixel_unlock_felica
+name=Unlock Felica for non-Japanese Pixel devices
+version=v2.0
+versionCode=175
+author=jjyao88
+description=Unlock Felica on non-Japanese Pixel devices that you can use Felica cards in Japan!
+updateJson=https://raw.githubusercontent.com/jjyao88/unlock-felica-pixel/master/update.json
+support=https://github.com/jjyao88/unlock-felica-pixel/issues
