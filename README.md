@@ -1,7 +1,7 @@
 # The Magisk module to Unlock Felica on Global Pixel Devices
 
 ## Description
-This module will *systemlessly* patch **PixelNfc** system app, which will check whether the pixel is Japanese SKU. Also mark FeliCa enabled in `felica_common.cfg`
+This module will *systemlessly* patch **PixelNfc** system app, which will check whether the pixel is Japanese SKU. Also mark FeliCa enabled in `felica/common.cfg`
 
 I have only tested on Pixel 4 XL with Android 13, Should work on any Google Pixel device that runs Android 11+ at least.
 
