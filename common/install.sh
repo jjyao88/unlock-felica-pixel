@@ -1,7 +1,7 @@
 ui_print "-----------------------------------------------"
 ui_print "  Unlock Felica on Global Pixel Devices        "
 ui_print "-----------------------------------------------"
-ui_print "  by @jjyao88      |   Version: 2.0            "
+ui_print "  by @jjyao88      |   Version: 2.1            "
 ui_print "-----------------------------------------------"
 ui_print "  -- Only Support Pixel Devices                "
 ui_print "-----------------------------------------------"
@@ -12,6 +12,10 @@ FELICA_CFG="/system/product/etc/felica/common.cfg"
 REPLACE_SMALI="\t.locals 1\n\tconst/4 p0, 0x1\n\treturn p0"
 
 ui_print "APK Target: $STOCK_APK"
+
+if ! exist "$STOCK_APK"; then
+    abort "PixelNfc.apk is not found. It seems that you are not using a Pixel device."
+fi
 
 ui_print " -- Decompiling PixelNfc.apk"
 apktool --no-res -f d $STOCK_APK -o "$TMPDIR/pixelnfc"

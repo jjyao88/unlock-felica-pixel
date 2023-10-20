@@ -160,5 +160,5 @@ run_jar_addon() {
 apktool() {
    [ ! -f "$TMPDIR/1.apk" ] && cp -f /system/framework/framework-res.apk "$TMPDIR/1.apk"
    if [ ! -e "$jars/apktool.jar" ]; then ui_print " Cant find apktool.jar " && return 1; fi
-   run_jar "$jars/apktool.jar" --aapt "$tools/aapt" -p "$TMPDIR" "$@"
+   run_jar "$jars/apktool.jar" -a "$tools/aapt" --use-aapt1 -p "$TMPDIR" "$@"
 }
