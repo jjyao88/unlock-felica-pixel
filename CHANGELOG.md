@@ -1,3 +1,6 @@
+## v2.1.1 - 2023/10/20
+- misc: set perrmision and context for apk and cfg file.
+
 ## v2.1 - 2023/10/20
 - deps: Update all binaries to aarch64 version and apktool to 2.9.0 version
     - Fix the restriction that Android 14 cannot run 32bit binaries.
