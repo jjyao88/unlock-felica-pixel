@@ -22,6 +22,21 @@ delete_recursive() { rm -rf "$@"; }
 
 echo2() { echo >&2 "$@"; }
 
+set_perm2() {
+   #Ensure this format
+   local uid gid mod
+   [ -n "$1" ] && uid=$1 || return 1
+   [ -n "$2" ] && gid=$2 || return 1
+   [ -n "$3" ] && mod=$3 || return 1
+   shift 3
+   while [ "$1" ]; do
+      testrw "$(dirname "$1")" || return 1
+      chown "$uid:$gid" "$1" 2>/dev/null || chown "$uid.$gid" "$1"
+      chmod "$mod" "$1"
+      shift
+   done
+}
+
 create_dir() {
    local dir return=0
    for dir; do if [ ! -d "$dir" ]; then

@@ -1,7 +1,7 @@
 ui_print "-----------------------------------------------"
 ui_print "  Unlock Felica on Global Pixel Devices        "
 ui_print "-----------------------------------------------"
-ui_print "  by @jjyao88      |   Version: 2.1            "
+ui_print "  by @jjyao88      |   Version: 2.1.1          "
 ui_print "-----------------------------------------------"
 ui_print "  -- Only Support Pixel Devices                "
 ui_print "-----------------------------------------------"
@@ -58,7 +58,6 @@ if ! is_valid "$MODPATH$STOCK_APK"; then
 fi
 
 ui_print " -- Setting PixelNfc.apk permission"
-set_context "$STOCK_APK" "$MODPATH$STOCK_APK"
 
 ui_print " -- Checking Felica config"
 cp $FELICA_CFG "$TMPDIR/felica_common.cfg"
@@ -72,7 +71,6 @@ else
 fi
 
 move "$TMPDIR/felica_common.cfg" "$MODPATH$FELICA_CFG"
-set_context "$FELICA_CFG" "$MODPATH$FELICA_CFG"
 
 ui_print " "
 ui_print " -- Done "
