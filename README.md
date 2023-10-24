@@ -8,6 +8,13 @@ Both Magisk and KernelSU root solutions are supported.
 ## Download
 [Download latest version](https://github.com/jjyao88/unlock-felica-pixel/releases)
 
+## For KernelSU users
+> [!IMPORTANT]  
+> In KernelSU, all non-root apps cannot read modified system files by default.
+> 
+> To make unlocking Felica successfully, you must open KernelSU Manager and **disable Umount modules** option for all related apps in App Profile.
+<img src="https://github.com/jjyao88/unlock-felica-pixel/assets/11062997/1d6a416c-bd5c-4be2-80b9-a3a3be0bdd08" height="500">
+
 ## Device Support Table
 Feel free to leave test result in the issues if your device isn't listed below.
 
