@@ -1,3 +1,10 @@
+## v2.2 - 2023/10/24
+This version introduces patching `felica/common.cfg` only,
+if you have encountered any error, please report it in GitHub issues,
+and try version 2.1.1 instead.
+
+- feat: remove `00000014` and `00000015` keys and append `00000018,1` in the end of `felica/common.cfg`.
+
 ## v2.1.1 - 2023/10/20
 - misc: set perrmision and context for apk and cfg file.
 
