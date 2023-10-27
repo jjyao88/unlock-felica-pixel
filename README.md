@@ -21,7 +21,8 @@ Feel free to leave test result in the issues if your device isn't listed below.
 | Device | Unlockable? | Notes |
 |---------|---------------|-------|
 | Pixel 4 XL (coral) | ✅ | tested on Android 13
-| Pixel 8 Pro (husky) | ❌ | failed during initial setup in version 2.1.1 (see [#3](https://github.com/jjyao88/unlock-felica-pixel/issues/3)). v2.2 not yet tested
+| Pixel 7 Pro (cheetah) | ✅ | v2.2 tested
+| Pixel 8 Pro (husky) | ✅ | v2.2 tested
 
 ## Recommend Apps to Install
 - [Osaifu-Keitai](https://play.google.com/store/apps/details?id=com.felicanetworks.mfm.main) [com.felicanetworks.mfm.main]
