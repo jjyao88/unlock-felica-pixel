@@ -21,6 +21,7 @@ Feel free to leave test result in the issues if your device isn't listed below.
 | Device | Unlockable? | Notes |
 |---------|---------------|-------|
 | Pixel 4 XL (coral) | ✅ | tested on Android 13
+| Pixel 6 Pro (raven) | ✅ | v2.2 tested
 | Pixel 7 Pro (cheetah) | ✅ | v2.2 tested
 | Pixel 8 Pro (husky) | ✅ | v2.2 tested
 
