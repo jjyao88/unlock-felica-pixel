@@ -22,6 +22,7 @@ Feel free to leave test result in the issues if your device isn't listed below.
 |---------|---------------|-------|
 | Pixel 4 XL (coral) | ✅ | tested on Android 13
 | Pixel 5 (redfin) | ✅ | v2.2 tested on Android 14
+| Pixel 6 (oriole) | ✅ | v2.2 tested on Android 14
 | Pixel 6 Pro (raven) | ✅ | v2.2 tested on Android 13
 | Pixel 7 Pro (cheetah) | ✅ | v2.2 tested
 | Pixel 8 (shiba) | ✅ | v2.2 tested
