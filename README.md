@@ -20,6 +20,7 @@ Feel free to leave test result in the issues if your device isn't listed below.
 
 | Device | Unlockable? | Notes |
 |---------|---------------|-------|
+| Pixel 4a (sunfish) | ✅ | tested on Android 13
 | Pixel 4 XL (coral) | ✅ | tested on Android 13
 | Pixel 5 (redfin) | ✅ | v2.2 tested on Android 14
 | Pixel 6 (oriole) | ✅ | v2.2 tested on Android 14
