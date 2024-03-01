@@ -27,6 +27,7 @@ Feel free to leave test result in the issues if your device isn't listed below.
 | Pixel 6 Pro (raven) | ✅ | v2.2 tested on Android 13
 | Pixel 7 (panther) | ✅ | feedback from [#11](https://github.com/jjyao88/unlock-felica-pixel/issues/11)
 | Pixel 7 Pro (cheetah) | ✅ | v2.2 tested
+| Pixel 7a (lynx) | ✅ | v2.1.1 fully worked on A14, see [#12](https://github.com/jjyao88/unlock-felica-pixel/issues/12)
 | Pixel 8 (shiba) | ✅ | v2.2 tested
 | Pixel 8 Pro (husky) | ✅ | v2.2 tested
 
