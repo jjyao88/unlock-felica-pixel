@@ -39,6 +39,13 @@ Feel free to leave test result in the issues if your device isn't listed below.
 
 After installing the module, for further use please install all the apps above from Play Store.
 
+## FAQ
+- After installing the module, I am still unable to complete the initial card setup or open the Osaifu-Keitai app.
+  - KernelSU users: Ensure that the "Unmount modules" option is disabled.
+  - SUList root solution users (e.g., Kitsune Delta): While it may seem unusual, please add the "Osaifu-Keitai app" to your SUList. If you have any concerns regarding security, consider using KernelSU as an alternative.
+- I can open the Osaifu-Keitai app and manage my card successfully, but I am unable to use my card to pass the gate at the station.
+  - Please ensure that you have not activated any NFC-related modules (e.g., NFC card emulator) that may interfere with Felica functionality.
+
 ## Credits
 - [Deep dive into enabling osaifu-keitai feature by Kormax](https://github.com/kormax/osaifu-keitai-google-pixel)
 
