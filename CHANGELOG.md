@@ -1,3 +1,6 @@
+## v2.3 - 2024/10/08
+- Support Android 15 & remove unused code and binaries to reduce size.
+
 ## v2.2 - 2023/10/24
 This version introduces patching `felica/common.cfg` only,
 if you have encountered any error, please report it in GitHub issues,
