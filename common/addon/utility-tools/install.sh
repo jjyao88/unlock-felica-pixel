@@ -1,16 +1,5 @@
 #!/sbin/sh
 
-chmod -R 0775 $MODPATH/common/addon/utility-tools/tools
-chmod -R 0775 $MODPATH/common/addon/utility-tools/jars
-
-tools=$MODPATH/common/addon/utility-tools/tools
-jars=$MODPATH/common/addon/utility-tools/jars
-
-for j in $(ls $tools); do
-   ui_print " L: Linking $j"
-   alias $j="$MODPATH/common/addon/utility-tools/tools/$j"
-done
-
 ###################################################
 # Partial code from Dynamic Installer by @BlassGO #
 ###################################################
