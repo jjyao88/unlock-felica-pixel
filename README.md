@@ -32,6 +32,7 @@ Feel free to leave test result in the issues if your device isn't listed below.
 | Pixel 8 (shiba) | ✅ | v2.2 tested
 | Pixel 8 Pro (husky) | ✅ | v2.2 tested
 | Pixel 9 (tokay) | ✅ | on Android 15 [#27](https://github.com/jjyao88/unlock-felica-pixel/issues/27)
+| Pixel 9 Pro (caiman) | ✅ | on Android 15 [#30](https://github.com/jjyao88/unlock-felica-pixel/issues/30)
 | Pixel 9 Pro XL (komodo) | ✅ | on Android 14 / 15 [#24](https://github.com/jjyao88/unlock-felica-pixel/issues/24)
 | Pixel 9 Pro Fold (comet) | ✅ | on Android 14 / 15 [#19](https://github.com/jjyao88/unlock-felica-pixel/issues/19)
 
