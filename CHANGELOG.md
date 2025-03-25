@@ -1,3 +1,6 @@
+## v2.3.1 - 2025/03/25
+- Bump `MAXAPI` for supporting Android 16
+
 ## v2.3 - 2024/10/08
 - Support Android 15 & remove unused code and binaries to reduce size.
 

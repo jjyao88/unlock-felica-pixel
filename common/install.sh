@@ -1,7 +1,7 @@
 ui_print "-----------------------------------------------"
 ui_print "  Unlock Felica on Global Pixel Devices        "
 ui_print "-----------------------------------------------"
-ui_print "  by @jjyao88      |   Version: 2.3            "
+ui_print "  by @jjyao88      |   Version: 2.3.1          "
 ui_print "-----------------------------------------------"
 ui_print "  -- Only Support Pixel Devices                "
 ui_print "-----------------------------------------------"
