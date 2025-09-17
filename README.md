@@ -35,6 +35,8 @@ Feel free to leave test result in the issues if your device isn't listed below.
 | Pixel 9 Pro XL (komodo) | ✅ | on Android 14 / 15 [#24](https://github.com/jjyao88/unlock-felica-pixel/issues/24)
 | Pixel 9 Pro Fold (comet) | ✅ | on Android 14 / 15 [#19](https://github.com/jjyao88/unlock-felica-pixel/issues/19)
 | Pixel 9a (tegu) | ✅ | on Android 15 [#33](https://github.com/jjyao88/unlock-felica-pixel/issues/33)
+| Pixel 10 Pro (blazer) | ✅ | on Android 16 [#35](https://github.com/jjyao88/unlock-felica-pixel/issues/35)
+| Pixel 10 Pro XL (mustang) | ✅ | on Android 16 [#35](https://github.com/jjyao88/unlock-felica-pixel/issues/35)
 
 ## Recommend Apps to Install
 - [Osaifu-Keitai](https://play.google.com/store/apps/details?id=com.felicanetworks.mfm.main) [com.felicanetworks.mfm.main]
