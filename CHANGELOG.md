@@ -1,3 +1,6 @@
+## v2.3.2 - 2026/06/22
+- Bump `MAXAPI` for supporting Android 17
+
 ## v2.3.1 - 2025/03/25
 - Bump `MAXAPI` for supporting Android 16
 
