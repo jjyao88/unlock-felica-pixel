@@ -25,6 +25,7 @@ Feel free to leave test result in the issues if your device isn't listed below.
 | Pixel 4a 5G (bramble) | ✅ | tested on Android 14
 | Pixel 5 (redfin) | ✅ | v2.2 tested on Android 14
 | Pixel 6 (oriole) | ✅ | v2.2 tested on Android 14
+| Pixel 6a (bluejay) | ✅ | v2.3.1 tested on Android 16, v2.3.2 tested on Android 17
 | Pixel 6 Pro (raven) | ✅ | v2.2 tested on Android 13
 | Pixel 7 (panther) | ✅ | feedback from [#11](https://github.com/jjyao88/unlock-felica-pixel/issues/11)
 | Pixel 7 Pro (cheetah) | ✅ | v2.2 tested
