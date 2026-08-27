@@ -9,10 +9,14 @@ Both Magisk and KernelSU root solutions are supported.
 [Download latest version](https://github.com/jjyao88/unlock-felica-pixel/releases)
 
 ## For KernelSU users
-> [!IMPORTANT]  
-> In KernelSU, all non-root apps cannot read modified system files by default.
-> 
-> To make unlocking Felica successfully, you must open KernelSU Manager and **disable Umount modules** option for all related apps in App Profile.
+
+> [!IMPORTANT]
+> KernelSU v3 and later requires the [meta-overlayfs](https://github.com/KernelSU-Modules-Repo/meta-overlayfs/releases) module to mount the modified `/system/product/etc/felica/common.cfg` correctly.
+
+To unlock FeliCa:
+1. Install the [meta-overlayfs](https://github.com/KernelSU-Modules-Repo/meta-overlayfs/releases) module first.
+2. Install the [**unlock-felica-pixel**](https://github.com/jjyao88/unlock-felica-pixel/releases) module, then restart your device.
+3. Open KernelSU Manager and, under **App Profile**, enable **Disable umount modules** for all related apps.
 <img src="https://github.com/jjyao88/unlock-felica-pixel/assets/11062997/1d6a416c-bd5c-4be2-80b9-a3a3be0bdd08" height="500">
 
 ## Device Support Table
@@ -38,6 +42,7 @@ Feel free to leave test result in the issues if your device isn't listed below.
 | Pixel 9a (tegu) | ✅ | on Android 15 [#33](https://github.com/jjyao88/unlock-felica-pixel/issues/33)
 | Pixel 10 Pro (blazer) | ✅ | on Android 16 [#35](https://github.com/jjyao88/unlock-felica-pixel/issues/35)
 | Pixel 10 Pro XL (mustang) | ✅ | on Android 16 [#35](https://github.com/jjyao88/unlock-felica-pixel/issues/35)
+| Pixel 11 Pro (grizzly) | ✅ | on Android 17 [#41](https://github.com/jjyao88/unlock-felica-pixel/issues/41)
 
 ## Recommend Apps to Install
 - [Osaifu-Keitai](https://play.google.com/store/apps/details?id=com.felicanetworks.mfm.main) [com.felicanetworks.mfm.main]
